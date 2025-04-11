@@ -1,3 +1,9 @@
+## Fork Notice
+I wanted to use this extension also for checking of comments in C++. 
+But the activation events of this extension do not include anything generic, i.e., the 
+extension only gets started if you open a markdown or latex file.  
+So the intent of this fork is to only add `onStartupFinished` to the activation events.
+
 <!--
    - Copyright (C) 2019-2021 Julian Valentin, LTeX Development Community
    -
